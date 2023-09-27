@@ -1,0 +1,156 @@
+body{
+    background: rgb(164, 190, 201);
+}
+/*header*/
+header{
+    height: 10vh;
+    background:  rgb(164, 190, 201);
+    color: #FFF;
+}
+nav{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(164, 190, 201);
+}
+nav img {
+    width: 20px;
+    cursor: pointer;
+}
+nav img:hover{
+    background-color: #a7a3a3;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+li:hover{
+    color: #dd1616;
+}
+/*Main*/
+main{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    color: #333;
+}
+button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebe5e5;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+main button a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+main button img{
+    display: flex;
+    margin-right: 2px;
+    align-items: center;
+    width: 16px;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+/*Section*/
+section{
+    height: 50vh;
+    background: rgb(164, 190, 201);
+    color: #333;
+}
+.meusProjetos{
+    display: flex;
+    justify-content: center;
+}
+.projetos{
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+}
+.c1{
+    grid-row: 1;
+    grid-column: 1;
+    background-color: #333;
+    width: 150px;
+    height: 150px;
+}
+.c2{
+    grid-row: 1;
+    grid-column: 2;
+    background-color: #333;
+    width: 150px;
+    height: 150px;
+}
+.c3{
+    grid-row: 1;
+    grid-column: 3;
+    background-color: #333;
+    width: 150px;
+    height: 150px;
+}
+.c4{
+    grid-row: 2;
+    grid-column: 1;
+    background-color: #333;
+    width: 150px;
+    height: 150px;
+}
+.c5{
+    grid-row: 2;
+    grid-column: 2;
+    background-color: #333;
+    width: 150px;
+    height: 150px;
+}
+.c6{
+    grid-row: 2;
+    grid-column: 3;
+    background-color: #333;
+    color: #FFF;
+    width: 150px;
+    height: 150px;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+}
+.rodapé{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    border: solid#5c5b5b;
+    background: rgb(164, 190, 201);
+    color: #333;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ícones{
+    color: #333;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}

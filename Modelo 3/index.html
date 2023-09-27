@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span>EM</span>
+            <ul>
+                <li>Início</li>
+                <li>Sobre Mim</li>
+                <li>Projetos</li>
+                <li>Contato</li>
+            </ul>
+            <img src="lua.png" alt="Lua" onclick="modoEscuro()">
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Olá, Meu nome é Enzo Marco</h1>
+            <p>Aprendiz de programação em busca de conhecimento e crescimento.</p>
+            <button><a href="github.com"><img src="github.png">GitHub</a></button>
+            <button><a href="linkedin.com"><img src="linkedin.png">Linkedin</a></button>
+        </div>
+        <div>
+            <img src="IMG.jpg">
+        </div>
+    </main>
+    <section>
+        <div class="meusProjetos"><h3>Meus Projetos</h3></div>
+        <div class="projetos">    
+            <card class="c1">Em Breve</card>
+            <card class="c2">Em Breve</card>
+            <card class="c3">Em Breve</card>
+            <card class="c4">Em Breve</card>
+            <card class="c5">Em Breve</card>
+            <card class="c6">Em Breve</card>
+        </div>
+    </section>
+    <footer>
+        <div class="rodapé">
+            <ul class="contato">
+                <li>enzoantunes777@gmail.com</li>
+                <li>(31)99309-0287</li>
+                <li>Sete Lagoas-Mg, Brasil</li>
+            </ul>
+            <ul>
+            <li><a  class="ícones" href="https://www.flaticon.com/free-icons/moon" title="moon icons">Moon icons created by Icongeek26 - Flaticon</a></li>   
+            <li><a  class="ícones" href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a></li>
+            <li><a class="ícones" href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></li>
+            </ul> 
+        </div> 
+    </footer>
+    <p class="copyright">&copy; 2023 Enzo Marco. Todos os direitos reservados.</p>
+    <script>
+        function modoEscuro() {
+            document.body.style.backgroundColor = '#333';
+            document.querySelector('header') = '#333 !important';
+            document.querySelector('main') = '#333 !important';
+        }
+    </script>
+</body>
+</html>
