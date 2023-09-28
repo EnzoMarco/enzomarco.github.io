@@ -1,3 +1,6 @@
+*{
+    font-family: 'Mooli', sans-serif;
+}
 body{
     background: rgb(164, 190, 201);
 }
@@ -9,11 +12,16 @@ header{
 }
 nav{
     position: fixed;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 170px;
     background: rgb(164, 190, 201);
+    font-size: 14px;
+}
+nav span {
+    color: #030303;
 }
 nav img {
     width: 20px;
@@ -31,41 +39,49 @@ nav ul li{
     cursor: pointer;
 }
 li:hover{
-    color: #dd1616;
+    color: #387792;
 }
 /*Main*/
 main{
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background: #FFF;
     color: #333;
 }
+h1, p, button{
+    margin: 10px;
+} 
 button{
     display: inline-flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background: #ebe5e5;
     width: 80px;
     height: 25px;
     border-radius: 5px;
+    font-size: 12px;
 }
 main button a{
     display: flex;
+    align-items: center;
     text-decoration: none;
     color: black;
 }
+main button:hover{
+    background-color: rgb(164, 190, 201);
+}
 main button img{
     display: flex;
-    margin-right: 2px;
-    align-items: center;
     width: 16px;
+    margin-left: 0px;
 }
 img{
     width: 200px;
     border-radius: 50%;
+    margin-left: 20px;
 }
 /*Section*/
 section{
@@ -80,52 +96,70 @@ section{
 .projetos{
     display: grid;
     justify-content: center;
-    grid-gap: 20px;
+    gap: 20px;
+    column-gap: 143px;
     grid-template-columns: 3;
     grid-template-rows: 2;
 }
 .c1{
     grid-row: 1;
     grid-column: 1;
-    background-color: #333;
+    background-color: #ffffffab;
     width: 150px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .c2{
     grid-row: 1;
     grid-column: 2;
-    background-color: #333;
+    background-color: #ffffffab;
     width: 150px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .c3{
     grid-row: 1;
     grid-column: 3;
-    background-color: #333;
+    background-color: #ffffffab;
     width: 150px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .c4{
     grid-row: 2;
     grid-column: 1;
-    background-color: #333;
+    background-color: #ffffffab;
     width: 150px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .c5{
     grid-row: 2;
     grid-column: 2;
-    background-color: #333;
+    background-color: #ffffffab;
     width: 150px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .c6{
     grid-row: 2;
     grid-column: 3;
-    background-color: #333;
-    color: #FFF;
+    background-color: #ffffffab;
     width: 150px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*footer*/
 footer{
@@ -135,12 +169,12 @@ footer{
 .rodapé{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-    width: 100vw;
+    width: 57.3vw;
     height: 10vh;
     border: solid#5c5b5b;
     background: rgb(164, 190, 201);
     color: #333;
+    font-size: 12px;
 }
 .contato{
     display: flex;
