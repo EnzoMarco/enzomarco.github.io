@@ -1,2 +1,2 @@
 # enzomarco.github.io
-Meu site portólio feito do zero.
+Meu site portólio.
